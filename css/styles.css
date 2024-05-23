@@ -12,16 +12,16 @@ html{
 }
 
 body {
-  background-image: url("https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-image: url("/img/photo-1597815851664-c9f2ecde84a6.avif");
   background-position: center;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: cover ;
 }
 
 button {
   background-color: #fdfdfd;
-  color: #102f5e;
-  border: 2px solid #102f5e;
+  border-radius: 5px;
+  border: none;
   padding: 0.3rem 0.6rem;
   font-size: 1rem;
   cursor: pointer;
@@ -32,7 +32,7 @@ button {
 }
 
 button:hover {
-  background-color: #102f5e;
+  background-color: #6a8fc8;
 }
 
 button:hover > i {
@@ -41,7 +41,7 @@ button:hover > i {
 
 button i {
   pointer-events: none;
-  color: #102f5e;
+  color: #535353;
   font-weight: bold;
 }
 
@@ -58,7 +58,8 @@ select {
 .todo-container {
   max-width: 450px;
   margin: 3rem auto 0;
-  background-color: #fdfdfd;
+  background-color: #ffffff74;
+
   padding: 1.5rem;
   border-radius: 15px;
 }
@@ -70,6 +71,27 @@ select {
 }
 
 /* Todo Form */
+
+#todo-form{
+  text-align: center;
+}
+
+#todo-form input{
+  margin-left: 65px;
+}
+
+#edit-form {
+  text-align: center;
+
+}
+#edit-form input{
+  margin-left: 65px;
+}
+
+#cancel-edit-btn{
+  margin-left: 120px;
+}
+
 #todo-form,
 #edit-form {
   padding: 1rem;
@@ -97,9 +119,10 @@ select {
 
 /* Todo Toolbar */
 #toolbar {
+  display: flex;
+  flex-direction: row;
   padding: 1rem;
   border-bottom: 1px solid #ccc;
-  display: flex;
 }
 
 #toolbar h4 {
@@ -110,7 +133,7 @@ select {
   border-right: 1px solid #ddd;
   padding-right: 1rem;
   margin-right: 1rem;
-  width: 65%;
+  width: 64%;
   display: flex;
   flex-direction: column;
 }
@@ -125,7 +148,7 @@ select {
 }
 
 #filter {
-  width: 35%;
+  flex: 1;
   display: flex;
   flex-direction: column;
 }
