@@ -13,7 +13,8 @@ html{
 }
 
 body {
-  background-image: url(/img/6489005.jpg);
+  background-color: #1b4e85;
+  /* background-image: url(/img/6489005.jpg); */
   
   background-position: center;
   background-attachment: fixed;
