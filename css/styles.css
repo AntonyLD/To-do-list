@@ -17,6 +17,7 @@ body {
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
+  
 }
 
 button {
@@ -61,12 +62,13 @@ input:focus, select:focus{
 /* Todo Header */
 .todo-container {
   max-width: 450px;
-  margin: 3rem auto 0;
+  margin: 10rem auto 0;
   background-color: #000000c3;
   box-shadow: 0px 10px 30px rgb(0, 0, 0);
   backdrop-filter: blur(10px);
   padding: 1.5rem;
   border-radius: 15px;
+  
 }
 
 .todo-container header {
@@ -82,28 +84,28 @@ input:focus, select:focus{
 
 /* Todo Form */
 
-#todo-form{
+#todo-form {
   text-align: center;
   border-bottom: 1px solid #cccccc30; 
 }
 
 #todo-form input{
-  margin-left: 45px;
+  margin-left: 2rem;
   border-radius: 5px;
   padding: 0.8rem;
 }
 
-#edit-form {
+  #edit-form {
   text-align: center;
   border-bottom: 1px solid rgba(255, 255, 255, 0.13);
-}
-#edit-form input{
-  margin-left: 40px;
-}
+} 
+  #edit-form input{
+  margin-left: 2rem;
+} 
 
 #cancel-edit-btn{
   padding: 10px;
-  margin-left: 130px;
+  margin-left: 8.5rem;
 }
 
 #todo-form,
