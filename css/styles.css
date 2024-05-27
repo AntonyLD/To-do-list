@@ -99,16 +99,16 @@ input:focus, select:focus{
 }
 
   #edit-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
   border-bottom: 1px solid rgba(255, 255, 255, 0.13);
-} 
-  #edit-form input{
-  margin-left: 2rem;
 } 
 
 #cancel-edit-btn{
   padding: 10px;
-  margin-left: 8.5rem;
+  margin-left: 0 auto;
 }
 
 #todo-form,
