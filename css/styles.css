@@ -93,11 +93,9 @@ input:focus, select:focus{
 }
 
 #todo-form input{
-  
   border-radius: 5px;
   padding: 0.8rem;
 }
-
   #edit-form {
   display: flex;
   flex-direction: column;
@@ -114,7 +112,6 @@ input:focus, select:focus{
 #todo-form,
 #edit-form {
   padding: 1rem;
-  
   /* border-bottom: 1px solid #ccc; */
 }
 
